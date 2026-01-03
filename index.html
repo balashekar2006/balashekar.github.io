@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <title>Balashekar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader">
+    <div class="spinner"></div>
+</div>
+    <!-- Navbar -->
+    <nav>
+        <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+        <h2 class="logo">Balashekar</h2>
+        <ul class="bala-hero">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+   <section class="hero">
+
+    <!-- Profile Photo -->
+    <img src="profile.jpg" alt="Profile Photo" class="profile-pic">
+
+     <!-- Name & role -->
+    <h1>Hello, I'm <span id="typing"></span></h1>
+    <p class="role">A Java Developer</p>
+    <!-- Testimonial under profile photo -->
+    <div class="hero-testimonial">
+        <p id="heroTestimonial">
+            “Balashekar is a dedicated learner with strong problem-solving skills and a strong passion for development.”
+        </p>
+        <span>java developer</span>
+    </div>
+</section>
+    <!-- About -->
+    <section id="about" class="section">
+        <section class="section hidden">
+        <h2>About Me</h2>
+        <p>
+
+           I’m Balashekar, a passionate and motivated AI & Data Science student at Parul University with a strong interest in learning
+            and applying emerging technologies. I am a quick learner who enjoys exploring new concepts, solving real-world problems, and
+             continuously improving my technical skills.
+             Currently, I am building my knowledge in Data Science, Artificial Intelligence, and programming, while actively working on strengthening my problem-solving and analytical thinking abilities. I believe in learning by doing and enjoy turning ideas into practical solutions through hands-on projects.
+
+I am always eager to learn new tools, adapt to challenges, and grow as a tech professional. My goal is to develop impactful solutions that combine innovation, data, and intelligence to create meaningful outcomes.
+        </p>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <section class="section hidden">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card">Java</div>
+            <div class="card">C language</div>
+            <div class="card">Editing</div>
+            <div class="card">Ms Office</div>
+        </div>
+    </section>
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <section class="section hidden">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">Number Guessing Game</div>
+            <div class="project-card">Drone delivery system</div>
+            <div class="project-card">Ev car charaging</div>
+            <div class="project-card">Excel</div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+       <div class="socials">
+    <!-- GitHub -->
+    <a href="https://github.com/balashekar2006" title="GitHub"> <i class="fab fa-github"></i>
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/balashekartellagorla/" title="LinkedIn"><i class="fab fa-linkedin-in"></i>
+    </a>
+    <!-- Phone -->
+    <a href="tel:+919398555608" class="contact-btn phone" title="Contact"><i class="fas fa-phone"></i>
+</a>
+</div>
+
+        <section class="section hidden">
+        <h2>Contact Me</h2>
+        <p>Email:balashekar202@gmail.com</p>
+      <button class="contact-btn email" onclick="sendEmail()" title="Send Message">
+    ✉️ Send Message
+</button>
+<div class="portfolio-thankyou" id="thankYouSection">
+    <h2>Thank You for Visiting My Portfolio</h2>
+    <p>
+        I sincerely appreciate you taking the time to explore my portfolio.
+        This space reflects my skills, passion, and continuous learning journey
+        in technology and development.
+    </p>
+    <p>
+        Each project is created with dedication and curiosity.
+        If my work interests you or you wish to collaborate, feel free to connect.
+    </p>
+    <p class="closing-line">
+        Thank you once again for your valuable time and support.
+    </p>
+</div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
