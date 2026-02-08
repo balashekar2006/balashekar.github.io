@@ -77,3 +77,26 @@ window.addEventListener("scroll", () => {
         thankYouSection.classList.add("show");
     }
 });
+// Simple fade-in animation on scroll
+const skillCards = document.querySelectorAll(".skill-card");
+
+const revealSkills = () => {
+  skillCards.forEach(card => {
+    const cardTop = card.getBoundingClientRect().top;
+    if (cardTop < window.innerHeight - 100) {
+      card.style.opacity = "1";
+      card.style.transform = "translateY(0)";
+    }
+  });
+};
+
+skillCards.forEach(card => {
+  card.style.opacity = "0";
+  card.style.transform = "translateY(30px)";
+  card.style.transition = "all 0.6s ease";
+});
+
+window.addEventListener("scroll", revealSkills);
+revealSkills();
+
+
