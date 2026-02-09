@@ -1,0 +1,57 @@
+body {
+  background: #0b0b0b;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.editing-hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.editing-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.editing-hero p {
+  font-size: 16px;
+  opacity: 0.85;
+  max-width: 600px;
+  margin: auto;
+}
+
+.insta-profile-btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 24px;
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-reel {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.top-reel h2 {
+  margin-bottom: 20px;
+  color: #00ffd5;
+}
+
+.reels-grid {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.reel-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
