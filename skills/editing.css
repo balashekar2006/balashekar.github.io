@@ -35,9 +35,23 @@ body {
 }
 
 .top-reel {
+  min-height: 70vh;              /* takes most of screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;       /* vertical center */
+  align-items: center;           /* horizontal center */
   text-align: center;
   padding: 40px 20px;
 }
+.top-reel h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.top-reel blockquote {
+  max-width: 350px;
+}
+
 
 .top-reel h2 {
   margin-bottom: 20px;
