@@ -71,3 +71,67 @@ body {
 .links a:hover {
   text-decoration: underline;
 }
+/* NOTES SECTION */
+.notes-section {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.notes-section h2 {
+    font-size: 32px;
+}
+
+.notes-sub {
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+/* GRID */
+.notes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.note-img {
+    width: 100%;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.note-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(99,102,241,0.6);
+}
+
+/* MODAL */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 12px;
+}
+
+.close {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
