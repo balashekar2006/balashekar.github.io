@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Programming Learning Journey</title>
+  <link rel="stylesheet" href="gallery.css" />
+</head>
+<body>
+
+<header>
+  <h1>📚 My Programming Learning Journey</h1>
+  <p>All the handwritten & practice notes I created while learning</p>
+</header>
+
+<section class="gallery">
+
+  <!-- Python Notes -->
+  <div class="lang-section">
+    <h2>🐍 Python Notes</h2>
+
+    <div class="image-grid">
+      <img src="images/python1.jpg" onclick="openModal(this)">
+      <img src="images/python2.jpg" onclick="openModal(this)">
+      <img src="images/python3.jpg" onclick="openModal(this)">
+    </div>
+  </div>
+
+  <!-- Java Notes -->
+  <div class="lang-section">
+    <h2>☕ Java Notes</h2>
+
+    <div class="image-grid">
+      <img src="images/java1.jpg" onclick="openModal(this)">
+      <img src="images/java2.jpg" onclick="openModal(this)">
+      <img src="images/java3.jpg" onclick="openModal(this)">
+    </div>
+  </div>
+
+</section>
+
+<!-- Image Popup Viewer -->
+<div id="imgModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+
+<script src="gallery.js"></script>
+</body>
+</html>
